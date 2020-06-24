@@ -1,3 +1,3 @@
 # RGB-Color-Guessing-Game
-Fun and easy game created with html, css, and javascript. 2 modes: easy or hard.
+Fun and easy game created with HTML, CSS, and JavaScript. 2 modes: easy or hard.
 Guess the correct color!!
