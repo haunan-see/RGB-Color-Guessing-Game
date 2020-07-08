@@ -1,34 +1,54 @@
 body {
+    font-family: 'Cabin', sans-serif;
     background-color: #232323;
     margin: 0;
-    font-family: "Avenir";
 }
 
 h1 {
-    color: white;
+    font-weight: normal;
     text-align: center;
     line-height: 1.4;
-    background-color: steelblue;
-    margin: 0;
-    font-weight: normal;
     padding: 18px 0;
+    margin: 0;
+    color: white;
+    background-color: steelblue;
 }
 
-#rgb_display {
-    text-transform: uppercase;
-    font-size: 60px;
+button {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500px;
+    font-size: inherit;
+    letter-spacing: 0.8px;
+    color: steelblue;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    transition: all 400ms;
+    -webkit-transition: background 400ms;
+    -moz-transition: background 400ms;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
 }
 
 .square {
-   width: 30%;
-   background-color: purple;
-   padding-bottom: 30%;
-   float: left;
-   margin: 1.66%;
-   border-radius: 12%;
-   transition: background 300ms;
-   -webkit-transition: background 300ms;
-   -moz-transition: background 300ms;
+    background-color: purple;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 12%;
+    transition: background 350ms;
+    -webkit-transition: background 350ms;
+    -moz-transition: background 350ms;
+}
+
+.selected {
+    color: white;
+    background-color: steelblue;
 }
 
 #container {
@@ -36,39 +56,21 @@ h1 {
     max-width: 600px;
 }
 
+#rgb_display {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
 #message {
     font-size: 1.2rem;
+    color: rgb(70, 154, 180);
     display: inline-block;
     width: 22%;
 }
 
 #stripe {
-    background-color: white;
-    height: 30px;
     text-align: center;
+    height: 30px;
     color: black;
-}
-
-.selected {
-    background-color: steelblue;
-    color: white;
-}
-
-button {
-    border: none;
-    background-color: transparent;
-    height: 100%;
-    font-weight: 500px;
-    color: steelblue;
-    letter-spacing: 0.8px;
-    font-size: inherit;
-    transition: all 400ms;
-    -webkit-transition: background 400ms;
-    -moz-transition: background 400ms;
-    outline: none;
-}
-
-button:hover {
-    color: white;
-    background-color: steelblue;
+    background-color: white;
 }
