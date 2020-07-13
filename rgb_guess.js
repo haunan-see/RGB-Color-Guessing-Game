@@ -1,13 +1,13 @@
-let numofSquares = 9;
-let colors = generateRandomColors(numofSquares);
-let pickedColor = randomColor();
-let h1 = document.querySelector("h1");
-let squares = document.querySelectorAll(".square");
-let rgbDisplay = document.querySelector("#rgb_display");
+let numofSquares   = 9;
+let colors         = generateRandomColors(numofSquares);
+let pickedColor    = randomColor();
+let h1             = document.querySelector("h1");
+let squares        = document.querySelectorAll(".square");
+let rgbDisplay     = document.querySelector("#rgb_display");
 let messageDisplay = document.querySelector("#message");
-let resetButton = document.querySelector("#reset");
-let easyBtn = document.querySelector("#easyBtn");
-let hardBtn = document.querySelector("#hardBtn");
+let resetButton    = document.querySelector("#reset");
+let easyBtn        = document.querySelector("#easyBtn");
+let hardBtn        = document.querySelector("#hardBtn");
 
 initialize();
 
